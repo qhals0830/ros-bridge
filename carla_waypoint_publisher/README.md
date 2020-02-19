@@ -40,5 +40,5 @@ The calculated route is published:
 
 | Service                                                     | Description | Type                                                         |
 | ----------------------------------------------------------- | ----------- | -------------------------------------------------------------------- |
-| `/carla_waypoint_publisher/<ego vehicle name>/get_waypoint` | Get the waypoint for a specific location | [carla_waypoint_types.GetWaypoint](../carla_waypoint_types/srv/GetWaypoint.msg) |
-| `/carla_waypoint_publisher/<ego vehicle name>/get_actor_waypoint` | Get the waypoint for the ego vehicle | [carla_waypoint_types.GetActorWaypoint](../carla_waypoint_types/srv/GetActorWaypoint.msg) |
+| `/carla_waypoint_publisher/<ego vehicle name>/get_waypoint` | Get the waypoint for a specific location | [carla_waypoint_types.GetWaypoint](../carla_waypoint_types/srv/GetWaypoint.srv) |
+| `/carla_waypoint_publisher/<ego vehicle name>/get_actor_waypoint` | Get the waypoint for the ego vehicle | [carla_waypoint_types.GetActorWaypoint](../carla_waypoint_types/srv/GetActorWaypoint.srv) |
